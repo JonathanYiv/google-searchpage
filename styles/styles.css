@@ -178,6 +178,14 @@ li a:hover {
 	color: rgb(26, 13, 171);
 }
 
+.content a:hover {
+	text-decoration: underline;
+}
+
+.content a:visited {
+	color: rgb(102, 0, 153);
+}
+
 .content .link {
 	color: rgb(0, 102, 33);
 	font-size: 14px;
@@ -190,4 +198,30 @@ li a:hover {
 .contentcontainer {
 	width: 600px;
 	margin-left: 160px;
+}
+
+
+/* Everything regarding the Search Box */
+
+.searchbox {
+	border: 1px solid hsl(0, 0%, 90%);
+	box-shadow: 1px 1px 1px hsl(0, 0%, 80%);
+
+	padding: 20px;
+}
+
+ol li {
+	display: list-item;
+}
+
+.searchbox p {
+	font-size: 16px;
+	line-height: 22px;
+}
+.bold {
+	font-weight: bold;
+}
+
+p.title {
+	font-size: 20px;
 }
