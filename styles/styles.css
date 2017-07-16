@@ -225,3 +225,16 @@ ol li {
 p.title {
 	font-size: 20px;
 }
+
+.searchbox p a {
+	font-size: 16px;
+}
+
+span.gray {
+	color: hsl(0, 0%, 45%);
+	font-size: 14px;
+}
+
+span.gray:hover {
+	text-decoration: underline;
+}
