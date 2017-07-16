@@ -1,0 +1,193 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: Roboto, arial, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/* Everything regarding the Searchbar */
+.searchbar {
+	position: relative;
+	padding-left: 1%;
+	display: inline;
+}
+
+.searchbar input {
+	text-align: left;
+	padding-left: 20px;
+
+	border: 1px solid hsl(0, 0%, 90%);
+	box-shadow: 5px 5px 5px hsl(0, 0%, 80%);
+
+	width: 40%;
+	height: 36px;	
+
+	font-size: 100%;
+}
+
+.searchbar #mic {
+	position: absolute;
+	top: 0;
+	left: 88%;
+
+	width: 15px;
+	height: 20px;
+}
+
+.searchbar #magnify {
+	position: absolute;
+	top: 0;
+	left: 94%;
+
+	width: 20px;
+	height: 20px;
+}
+
+.searchbar input:hover {
+	box-shadow: 6px 6px 6px hsl(0, 0%, 75%);
+}
+
+/* Image Container Modifcations */
+.google img {
+	float: left;
+	height: 44px;
+	width: 120px;
+	padding-left: 1%;
+}
+
+.appscontainer img {
+	width: 17px;
+	height: 17px;
+	display: inline;
+	
+	position: relative;
+	top: 5px;
+}
+
+.notificationscontainer img {
+	width: 25px;
+	height: 25px;
+	display: inline;
+	
+	position: relative;
+	top: 10px;
+}
+
+/* Element Selectors */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	display: inline;
+	padding: 8px;
+}
+
+li a:hover {
+	color: black;
+}
+
+/* Everything in the Upper Navigation Bar */
+.upper {
+	padding-top: 2%;
+
+	background-color: hsl(0, 0%, 97%);
+
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+
+	width: 100%;
+	height: 100px;
+}
+
+.upper ul {
+	list-style-type: none;
+	float: right;
+	padding-right: 2%;
+}
+
+.upper li input {
+	background-color: #4285f4;
+	color: #fff;
+	height: 30px;
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 0 16px;
+}
+
+.nav {
+	float: left;
+	clear: both;
+	padding-top: 20px;
+	width: 100%;
+	color: grey;
+	position: relative;
+	right: 48%;
+}
+
+.active {
+	color: rgb(66, 133, 244);
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-bottom: 3px solid rgb(66, 133, 244);
+}
+
+.settings {
+	display: inline-block;
+	padding-left: 250px;
+}
+
+/* Everything in the Bottom Navigation Bar */
+.bottom {
+	background-color: hsl(0, 0%, 95%);
+	color: hsl(0, 0%, 45%);
+
+	border: 1px solid hsl(0, 0%, 90%);
+
+	height: 80px;
+	width: 100%;
+
+	position: fixed;
+	bottom: 0;
+
+	padding-left: 140px;
+}
+
+.bottom p {
+	padding: 20px;
+}
+
+.bottom p a:hover {
+	color: black;
+}
+
+/* Everything regarding Search Results */
+
+.content {
+	margin-top: 20px;
+}
+
+.content a {
+	font-size: 18px;
+	color: rgb(26, 13, 171);
+}
+
+.content .link {
+	color: rgb(0, 102, 33);
+	font-size: 14px;
+}
+
+.content .link, .content p {
+	line-height: 16px;
+}
+
+.contentcontainer {
+	width: 600px;
+	margin-left: 160px;
+}
