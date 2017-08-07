@@ -6,6 +6,8 @@ This was the advanced version of a similar project, [build the google homepage](
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css).
 
+![Google Searchpage](/images/demo.png)
+
 ## Installation
 
 Open your Terminal/Command Line. Navigate to the directory where your version will live. Type in the following:
