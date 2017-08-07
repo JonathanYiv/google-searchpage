@@ -1,4 +1,4 @@
-# Google Homepage Project
+# Google Searchpage Project
 
 This purpose of this project was to deconstruct and rebuild a webpage as accurately as possible.
 The provided webpage was the [google searchpage](https://www.google.com/search?q=build+this+webpage) with the search "build this webpage."
